@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'IB';
+    src: url('../fonts/Inter-Bold.ttf');
+}
+@font-face {
+    font-family: 'IR';
+    src: url('../fonts/Inter-Regular.ttf');
+}
+@font-face {
+    font-family: 'RR';
+    src: url('../fonts/Roboto-Regular.ttf');
+}

@@ -1,0 +1,149 @@
+@media (max-width: 1293px){
+    .goal, .discover, .collections, .reviews{
+        max-width: 1440px;;
+        width: 100%;
+    }
+    .features__label{
+        display: none;
+    }   
+}
+@media (max-width: 1221px){
+    .header-content.container{
+        justify-content: center;
+        gap: 30px;
+    }
+    .header-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width: 1095px){
+    .track img:last-of-type, .statistics img:last-of-type{
+        width: 100%;
+    }
+}
+@media (max-width: 920px) {
+    .goal img, .discover img, .collections img, .reviews img{
+        width: 100%;
+    }
+}
+@media (max-width: 912px) {
+    .company_divider{
+        width: 100%;
+    }
+}
+@media (max-width: 730px) {
+    .header-nav .list, .nav-logging{
+        display: none;
+    }
+    .header-nav img{
+        margin: auto;
+        
+    }
+    .header-nav .container{
+        padding: 20px 24px 20px 72px;
+    }
+    .burger{
+        display: flex;
+    }
+    .header-content img{
+        width: 100%;
+    }
+    .title{
+        text-align: center;
+    }
+    .track, .statistics{
+        gap: 30px;
+        padding: 65px 52px 0;
+    }
+    .goal{
+        gap: 30px;
+    }
+    .features .title{
+        font-size: 30px;
+        line-height: 43px;
+    }
+    .company.container{
+        padding-left: 15px;
+    }
+    .company-text .text{
+        text-align: center;
+    }
+}
+@media (max-width: 657px) {
+    .team-members{
+        gap: 50px;
+    }
+    .footer-nav{
+        gap: 20px;
+    }
+    .company__divider {
+        margin: 69px auto 69px;
+    }
+}
+@media (max-width: 601px) {
+    .footer-nav{
+        justify-content: center;
+    }
+}
+@media (max-width: 531px) {
+    .title{
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .collections{
+        padding: 65px 60px 0;
+    }
+    .discover{
+        padding: 65px 43px 0;
+    }
+    .goal{
+        padding: 0 57px 88px;
+        gap: 63px;
+    }
+}
+@media (max-width: 500px) {
+    .track, .statistics{
+        padding: 65px 26px 0;
+    }
+}
+@media (max-width: 396px) {
+    .footer-nav .list{
+        flex-direction: column;
+        gap: 5px;
+    }
+    .footer-nav{
+        flex-direction: column;
+    }
+    .footer .btn{
+        margin: 0 auto 20px;
+    }
+}
+@media (max-width: 360px) {
+    .window img:nth-last-child(2){
+        display: none;
+    }
+    .window a{
+        margin: 0px 0 0px 68px;
+    }
+    .divider1{
+        right: 125px;
+    }
+    .close{
+        top: -10px;
+        transform: translateY(-50%);
+        right: 50%;
+    }
+    .main {
+        margin: 43px auto 60px;
+    }
+    .header-content.container {
+        margin: 32px auto 22px;
+    }
+    .goal-and-discover, .collections-and-reviews, .features {
+        gap: 12px;
+    }
+    
+}
